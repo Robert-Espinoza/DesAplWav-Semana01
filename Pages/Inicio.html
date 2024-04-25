@@ -2,16 +2,50 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>HTML</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semana 1</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
-  <p>Pagina de inicio</p>
-  <a href="Nosotros">Nosotros</a><br>
-  <a href="Catalogos_de_clientes">Catalogos de clientes</a><br>
-  <a href="Contactenos">Contactenos</a><br>
-  <a href="Nuestros_Servicios">Servicios</a><br>
+  <div class="container">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <a class="navbar-brand" href="#">
+          <img src="Images/LOGO_IKOMI.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        </a>
+        <h1 class="navbar-brand">Semana 01</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Nosotros">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Catalogos_de_clientes">Catálogos de clientes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contactenos">Contáctenos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Nuestros_Servicios">Servicios</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

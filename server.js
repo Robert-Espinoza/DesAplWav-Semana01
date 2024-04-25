@@ -4,7 +4,7 @@ const path = require('path');
 
 const server = http.createServer((req, res) => {
     const url = req.url;
-    let filePath = path.join(__dirname, 'Pages', url === '/' ? 'Inicio.html' : url + '.html');
+    let filePath = path.join(__dirname, 'Pages', url === '/' ? '/Inicio.html' : url + '.html');
     let contentType = 'text/html';
 
     if (filePath.endsWith('.css')) {
